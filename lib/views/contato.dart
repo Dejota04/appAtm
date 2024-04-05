@@ -12,6 +12,14 @@ class _ContatoState extends State<Contato> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Contato"),),
+      body: Column(children: [
+        Row(
+          children: [
+            Image.asset("imagens/detalhe_contato.png"),
+            Text("Sobre contato")
+          ],
+        )
+      ]),
     );
   }
 }

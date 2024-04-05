@@ -12,6 +12,14 @@ class _ClienteState extends State<Cliente> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Cliente"),),
+      body: Column(children: [
+        Row(
+          children: [
+            Image.asset("imagens/detalhe_cliente.png"),
+            Text("Sobre cliente")
+          ],
+        )
+      ]),
     );
   }
 }
